@@ -1,0 +1,29 @@
+/* ===== Estilos Gerais ===== */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h5 {
+  font-weight: bold;
+}
+
+header .nav-link.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Hover nos links */
+header .nav-link:hover {
+  color: #ffc107 !important;
+}
+
+/* Ajuste nos cards */
+.card {
+  border-radius: 12px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
